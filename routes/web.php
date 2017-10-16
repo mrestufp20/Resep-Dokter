@@ -21,5 +21,11 @@ Route::group(['middleware' => ['web']], function () {
     Route::resource('dokter', 'DokterController');
     Route::resource('obat', 'ObatController');
     Route::resource('detail', 'DetailController');
+
+    Route::resource('pasien', 'PasienController');
+    Route::resource('poliklinik', 'PoliklinikController');
+    Route::resource('pembayaran', 'PembayaranController');
+    Route::resource('pendaftaran', 'PendaftaranController');
+
     
 });
